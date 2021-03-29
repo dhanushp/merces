@@ -1,0 +1,158 @@
+@import "../../styles/abstract/mixins.scss";
+@import "../../styles/abstract/variables.scss";
+@import "../../styles/base/base.scss";
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10rem 0;
+  align-items: center;
+
+  @include respond(sm) {
+    grid-template-columns: 1fr;
+    padding: 15rem 0;
+  }
+
+  .headerText {
+    h1:nth-child(2) {
+      margin-bottom: 5rem;
+    }
+
+    .headerTextMain {
+      font-family: "Questa-Regular";
+      font-size: 6rem;
+    }
+
+    .headerTextSecondary {
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-size: 2em;
+      color: $secondary;
+      line-height: $line;
+    }
+  }
+}
+
+.service {
+  .serviceHeading {
+    .serviceHeadingPrimary {
+      font-family: "Arizonia", cursive;
+      color: $red;
+      font-size: 5rem;
+    }
+    .serviceHeadingSecondary {
+      font-family: "Questa-Regular";
+      font-size: 6rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .serviceHeadingSecondary::after {
+      content: "";
+      display: inline-block;
+      height: 0.5em;
+      vertical-align: bottom;
+      width: 80px;
+      margin-right: -100%;
+      margin-left: 10px;
+      border-top: 3px solid $red;
+    }
+  }
+
+  .serviceLists {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5rem;
+    margin-top: 5rem;
+
+    @include respond(sm) {
+      grid-template-columns: 1fr;
+    }
+    .serviceList {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      .serviceListImage {
+        .serviceListImage_Image {
+          width: 70%;
+
+          @include respond(sm) {
+            width: 50%;
+          }
+        }
+      }
+
+      .serviceListHeading {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        color: $grey;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+      }
+      .serviceListDetail {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        color: $secondary;
+        font-size: 1.8rem;
+        line-height: $line;
+      }
+    }
+  }
+}
+
+.product {
+  padding: 10rem 0;
+
+  @include respond(sm) {
+    padding: 15rem 0;
+  }
+  .productHeading {
+    .productHeadingPrimary {
+      font-family: "Arizonia", cursive;
+      color: $green;
+      font-size: 5rem;
+    }
+    .productHeadingSecondary {
+      font-family: "Questa-Regular";
+      font-size: 6rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .productHeadingSecondary::after {
+      content: "";
+      display: inline-block;
+      height: 0.5em;
+      vertical-align: bottom;
+      width: 80px;
+      margin-right: -100%;
+      margin-left: 10px;
+      border-top: 3px solid $green;
+    }
+  }
+
+  .productDetail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5rem;
+    grid-gap: 5rem;
+
+    @include respond(sm) {
+      grid-template-columns: 1fr;
+    }
+
+    .productDetailList {
+      .productDetailListImage {
+      }
+
+      .productDetailListHeading {
+        text-align: center;
+        font-family: "Questa-Regular";
+        font-size: 4rem;
+        margin-top: -15px;
+
+        @include respond(sm) {
+          font-size: 5rem;
+        }
+      }
+    }
+  }
+}

@@ -16,22 +16,22 @@ $breakpoint argument choices:
 */
 
 @mixin respond($breakpoint) {
-  @if $breakpoint == small-phone {
+  @if $breakpoint == xs {
     @media (max-width: 20em) {
       @content;
     } //300px
   }
-  @if $breakpoint == phone {
-    @media (max-width: 37.5em) {
+  @if $breakpoint == sm {
+    @media (max-width: 38.5em) {
       @content;
     } //600px
   }
-  @if $breakpoint == tab-port {
+  @if $breakpoint == md {
     @media (max-width: 56.25em) {
       @content;
     } //900px
   }
-  @if $breakpoint == tab-land {
+  @if $breakpoint == lg {
     @media (max-width: 75em) {
       @content;
     } //1200px
