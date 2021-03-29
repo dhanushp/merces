@@ -11,10 +11,12 @@ const Footer = () => {
           </div>
           <div className="footer__column">
             <p className="footer__column-right">
-              <a href="tel:9884845698">+91 98848 45698</a>
+              <a href="tel:8848897756">+91 88488 97756</a>
             </p>
             <p className="footer__column-right">
-              <a href="mailto:merces@uktraders.com">merces@uktraders.com</a>
+              <a href="mailto:mercessanitaryware@gmail.com">
+                mercessanitaryware@gmail.com
+              </a>
             </p>
             <p className="footer__column-right">
               <a
