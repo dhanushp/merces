@@ -14,18 +14,11 @@ const Footer = () => {
               <a href="tel:8848897756">+91 88488 97756</a>
             </p>
             <p className="footer__column-right">
-              <a href="mailto:mercessanitaryware@gmail.com">
-                mercessanitaryware@gmail.com
-              </a>
+              <a href="tel:8848897756">+91 94470 05646</a>
             </p>
             <p className="footer__column-right">
-              <a
-                href="https://goo.gl/maps/fUavu2oLfuYbfR1N9"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Panvel - Kochi - Kanyakumari Hwy, Poyya, Bangramanjeshwar,
-                Kerala 671323
+              <a href="mailto:mercessanitaryware@gmail.com">
+                mercessanitaryware@gmail.com
               </a>
             </p>
           </div>
