@@ -72,9 +72,8 @@ const Home = () => {
             </div>
             <h1 className={styles.serviceListHeading}>10 Years Warranty</h1>
             <p className={styles.serviceListDetail}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero
-              sapien morbi quis bibendum. Proin commodo faucibus duis hendrerit
-              leo, blandit pulvinar ante.{" "}
+              All Merces products comes with guaranteed 10 Years of warranty,
+              which ensures our customers peace of mind.{" "}
             </p>
           </div>
           <div className={styles.serviceList}>
@@ -87,9 +86,8 @@ const Home = () => {
             </div>
             <h1 className={styles.serviceListHeading}>Easy Installation</h1>
             <p className={styles.serviceListDetail}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero
-              sapien morbi quis bibendum. Proin commodo faucibus duis hendrerit
-              leo, blandit pulvinar ante.{" "}
+              As a result of well Engineering, all Merces products are
+              hasselfree and easy to install.{" "}
             </p>
           </div>
           <div className={styles.serviceList}>
@@ -102,9 +100,8 @@ const Home = () => {
             </div>
             <h1 className={styles.serviceListHeading}>USA Standard Product</h1>
             <p className={styles.serviceListDetail}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero
-              sapien morbi quis bibendum. Proin commodo faucibus duis hendrerit
-              leo, blandit pulvinar ante.{" "}
+              All Merces products are USA Standard approved, which means there's
+              no worry about the quality of any of our products.{" "}
             </p>
           </div>
         </div>
