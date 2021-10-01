@@ -26,7 +26,7 @@ const Footer = () => {
         <div className="footer__tradermark">
           <p className="footer__trademark-text">
             Merces © {new Date().getFullYear()}. All rights reserved by{" "}
-            <a href="https://www.dhanush.wtf/" target="_blank" rel="noreferrer">
+            <a href="https://www.dhanush.me/" target="_blank" rel="noreferrer">
               Dhanush Bangera
             </a>
           </p>
